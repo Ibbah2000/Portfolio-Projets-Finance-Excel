@@ -1,11 +1,11 @@
 # 📊 Projet Excel : Analyse et Gestion - Angers Loire Métropole
 
 > **Université d'Angers** - L3 Éco-Gestion, Éco Appliquée (Groupe 8)  
-> **Date de restitution :** 24/04/2025
+
 
 ## 📝 Description du Projet
 
-Ce projet, réalisé dans le cadre d'un partenariat entre l'Université d'Angers et **Angers Loire Métropole**, vise à modéliser et analyser les données financières et humaines de la communauté d'agglomération pour l'année 2024. 
+Ce projet, vise à modéliser et analyser les données financières et humaines de la commune d'**Angers** pour l'année 2024. 
 
 L'objectif est de faciliter la prise de décision publique concernant les investissements et la gestion des ressources humaines à l'aide d'outils d'analyse avancés sur **Excel**.
 
