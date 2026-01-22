@@ -1,66 +1,65 @@
-# 📊 Analyse Budgétaire et Financière - Angers Loire Métropole (Projet Excel)
+# 📊 Projet Excel : Analyse et Gestion - Angers Loire Métropole
 
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Finance](https://img.shields.io/badge/Finance-Corp-blue?style=for-the-badge)
+> **Université d'Angers** - L3 Éco-Gestion, Éco Appliquée (Groupe 8)  
+> **Date de restitution :** 24/04/2025
 
 ## 📝 Description du Projet
 
-[cite_start]Ce projet a été réalisé dans le cadre de la Licence 3 Éco-Gestion à l'**Université d'Angers**, en partenariat avec **Angers Loire Métropole**[cite: 1, 4].
+Ce projet, réalisé dans le cadre d'un partenariat entre l'Université d'Angers et **Angers Loire Métropole**, vise à modéliser et analyser les données financières et humaines de la communauté d'agglomération pour l'année 2024. 
 
-L'objectif principal est de modéliser et d'analyser le **budget 2024** de la métropole à l'aide de Microsoft Excel. [cite_start]Le projet vise à fournir des outils d'aide à la décision concernant les investissements publics, le suivi des projets urbains ("Projet de Territoire") et l'analyse des ressources humaines[cite: 3, 6].
+L'objectif est de faciliter la prise de décision publique concernant les investissements et la gestion des ressources humaines à l'aide d'outils d'analyse avancés sur **Excel**.
 
-## 🚀 Fonctionnalités Clés
 
-Le fichier Excel se décompose en trois axes majeurs d'analyse :
+---
 
-### 1. Analyse du Budget 2024
-* [cite_start]Comparaison des budgets prévisionnels 2024, 2025 et 2026[cite: 8].
-* [cite_start]Calcul des écarts (en valeur et en pourcentage) entre 2023 et 2024 pour identifier les variations de recettes et dépenses[cite: 13, 15].
-* [cite_start]Visualisation graphique des postes budgétaires (épargne brute, nette, dépenses d'investissement)[cite: 16].
+## 🚀 Fonctionnalités et Analyses
 
-### 2. Suivi du "Projet de Territoire" & Rentabilité
-* [cite_start]Tableau de bord de suivi des grands projets urbains (ex: Cours Saint-Laud, Extension Tramway, Parc des expositions)[cite: 21, 22].
-* [cite_start]**Analyse financière approfondie** (Cas "ZAC Plateau") pour évaluer la rentabilité des investissements[cite: 32, 41].
-* [cite_start]Calculs automatisés du seuil de rentabilité et du point mort[cite: 45].
+Le projet se décompose en trois axes majeurs d'analyse :
 
-### 3. Analyse RH et Simulation Salariale
-* [cite_start]Analyse démographique des effectifs (répartition H/F, pyramide des âges, égalité salariale)[cite: 47, 49].
-* [cite_start]Étude de la corrélation entre ancienneté et salaire moyen[cite: 53].
-* [cite_start]Simulation dynamique d'une augmentation des salaires (scénarios à 2% et 5%) et impact sur la masse salariale[cite: 56, 58].
+### 1. Analyse Budgétaire 2024
+* **Consolidation des budgets** : Agrégation des budgets principaux et annexes pour 2024, 2025 et 2026.
+* **Étude des écarts** : Comparaison des recettes et dépenses par rapport à 2023.
+* **Résultat** : Identification d'une hausse significative des recettes d'investissement (+49 505%) et des emprunts (+19 283%) liée aux nouveaux projets.
 
-## 🛠 Compétences Techniques et Formules Utilisées
+### 2. Gestion de Projet ("Projet Territoire")
+Suivi des grands projets urbains (ex: Cours Saint-Laud, Extension Tramway).
+* **Tableau de bord** : Suivi des budgets, dates et statuts (En cours/Prévu).
+* **Analyse Financière (Focus ZAC Plateau)** :
+    * Calcul de rentabilité avec un taux d'actualisation de 8%.
+    * Calcul de la **VAN** (Valeur Actuelle Nette) : **104 240 €** (Projet Rentable).
+    * Calcul du **TRI** (Taux de Rentabilité Interne) : **9%**.
+    * Calcul du **Point Mort** : Atteint au 21ème jour.
 
-Ce projet démontre une maîtrise avancée des fonctions Excel pour la finance et la gestion de données :
+### 3. Ressources Humaines (RH)
+Analyse d'une base de données de 1100 employés.
+* **Démographie** : Répartition par catégorie (Cadre, Employé, Ouvrier) et sexe.
+* **Salaires** : Analyse de l'écart salarial Homme/Femme (environ 1500€ d'écart moyen) et corrélation Ancienneté/Salaire.
+* **Simulation** : Impact budgétaire d'une augmentation de 5% (Catégorie A) et 2% (Catégorie C).
 
-* **Fonctions Financières :**
-    * [cite_start]`VAN()` (Valeur Actuelle Nette) : Pour valider la rentabilité d'un projet[cite: 41].
-    * [cite_start]`TRI()` (Taux de Rentabilité Interne) : Calcul du rendement[cite: 42].
-    * [cite_start]`VC()` (Valeur Capitalisée) et `VPM()` (Calcul des mensualités d'emprunt)[cite: 42, 43].
-* **Fonctions de Recherche et Logique :**
-    * [cite_start]`RECHERCHEV()` & `RECHERCHEX()` : Croisement de bases de données[cite: 23, 51].
-    * [cite_start]`SI()`, `ESTNA()`, `SIERREUR()` : Gestion des erreurs et conditions[cite: 27, 52].
-    * [cite_start]`INDEX()` + `EQUIV()` : Recherche avancée de valeurs[cite: 52].
-* **Manipulation de Données :**
-    * [cite_start]`GAUCHE()`, `DROITE()` : Extraction de codes projets[cite: 36].
-    * [cite_start]`CONCATENER()` : Génération de rapports textuels automatisés[cite: 26].
-    * Tableaux Croisés Dynamiques et Graphiques pour la "Data Visualization".
+---
 
-## 👥 Auteurs
+## 🛠 Compétences Techniques Excel
 
-Projet réalisé par le groupe 8 (L3 Éco-Gestion / Éco Appliquée) :
+Ce projet démontre la maîtrise de nombreuses fonctions Excel, allant de la recherche de données à l'analyse financière complexe :
+
+| Catégorie | Fonctions Utilisées | Description |
+| :--- | :--- | :--- |
+| **Recherche & Logique** | `RECHERCHEV`, `RECHERCHEX` | Recherche de budgets et salaires. |
+| | `SI`, `ESTNA`, `SIERREUR` | Gestion des erreurs et conditions. |
+| | `INDEX`, `EQUIV` | Recherche avancée (catégorie la plus représentée). |
+| **Finance** | `VAN` (NPV) | Calcul de la Valeur Actuelle Nette. |
+| | `TRI` (IRR) | Calcul du Taux de Rentabilité Interne. |
+| | `VPM` (PMT) | Calcul des mensualités d'emprunt. |
+| | `VC` (FV) | Valeur Capitalisée. |
+| **Texte & Date** | `CONCATENER` | Génération de phrases dynamiques. |
+| | `GAUCHE`, `DROITE` | Extraction de codes projets. |
+| | `DATE`, `ENT` | Gestion des calendriers et calcul du point mort. |
+
+---
+## 👥 L'Équipe (Groupe 8)
+
+* **Alpha Diallo**
 * **Bah Ibrahima Caba**
-* **Diallo Alpha**
 * **Diallo Ismaël**
 * **Ndiaye Seynabou**
 * **Toulassi Akou Cendra**
-
-*Sous la supervision de M. Hernandez François.*
-
-## 🔮 Améliorations Futures
-Comme évoqué dans la conclusion du projet, les prochaines étapes pourraient inclure :
-* [cite_start]L'intégration de **VBA** pour automatiser davantage les rapports[cite: 73].
-* [cite_start]La création de **tableaux de bord dynamiques** plus interactifs[cite: 73].
-* [cite_start]L'ajout de comparaisons interterritoriales pour situer la performance d'Angers[cite: 73].
-
----
-*Ce projet a été réalisé dans un cadre universitaire en 2024/2025.*
